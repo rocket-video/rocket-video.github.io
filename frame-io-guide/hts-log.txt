@@ -1,0 +1,11 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 29 Jan 2020 17:34:35 at https://support.frame.io/en/articles/1161479-review-links-explained-for-clients +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://support.frame.io/en/articles/1161479-review-links-explained-for-clients -O1 "D:\Temp\frameio\frame io guide" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 9 seconds : 208 links scanned, 206 files written (8926724 bytes overall) [8442813 bytes received at 122359 bytes/sec], 6097470 bytes transferred using HTTP compression in 106 files, ratio 90%, 20.8 requests per connection
+(No errors, 0 warnings, 0 messages)

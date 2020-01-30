@@ -1,0 +1,528 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 700;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-bold-italic.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-bold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-bold-italic.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-bold-italic.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 700;
+  src: url('cyrillic/proxima-nova-cyrillic-bold-italic.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-bold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-bold-italic.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-bold-italic.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 700;
+  src: url('greek/proxima-nova-greek-bold-italic.eot');
+  src: url('greek/proxima-nova-greek-bold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-bold-italic.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-bold-italic.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 700;
+  src: url('vietnamese/proxima-nova-vietnamese-bold-italic.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-bold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-bold-italic.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-bold-italic.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 700;
+  src: url('latin-ext/proxima-nova-latin-ext-bold-italic.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-bold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-bold-italic.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-bold-italic.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 700;
+  src: url('latin/proxima-nova-latin-bold-italic.eot');
+  src: url('latin/proxima-nova-latin-bold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-bold-italic.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-bold-italic.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 700;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-bold.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-boldd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-bold.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-bold.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 700;
+  src: url('cyrillic/proxima-nova-cyrillic-bold.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-boldd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-bold.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-bold.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 700;
+  src: url('greek/proxima-nova-greek-bold.eot');
+  src: url('greek/proxima-nova-greek-boldd41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-bold.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-bold.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 700;
+  src: url('vietnamese/proxima-nova-vietnamese-bold.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-boldd41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-bold.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-bold.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 700;
+  src: url('latin-ext/proxima-nova-latin-ext-bold.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-boldd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-bold.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-bold.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 700;
+  src: url('latin/proxima-nova-latin-bold.eot');
+  src: url('latin/proxima-nova-latin-boldd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-bold.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-bold.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 300;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-light-italic.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-light-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-light-italic.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-light-italic.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 300;
+  src: url('cyrillic/proxima-nova-cyrillic-light-italic.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-light-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-light-italic.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-light-italic.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 300;
+  src: url('greek/proxima-nova-greek-light-italic.eot');
+  src: url('greek/proxima-nova-greek-light-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-light-italic.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-light-italic.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 300;
+  src: url('vietnamese/proxima-nova-vietnamese-light-italic.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-light-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-light-italic.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-light-italic.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 300;
+  src: url('latin-ext/proxima-nova-latin-ext-light-italic.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-light-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-light-italic.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-light-italic.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 300;
+  src: url('latin/proxima-nova-latin-light-italic.eot');
+  src: url('latin/proxima-nova-latin-light-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-light-italic.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-light-italic.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-light.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-lightd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-light.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-light.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  src: url('cyrillic/proxima-nova-cyrillic-light.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-lightd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-light.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-light.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  src: url('greek/proxima-nova-greek-light.eot');
+  src: url('greek/proxima-nova-greek-lightd41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-light.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-light.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  src: url('vietnamese/proxima-nova-vietnamese-light.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-lightd41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-light.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-light.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  src: url('latin-ext/proxima-nova-latin-ext-light.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-lightd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-light.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-light.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  src: url('latin/proxima-nova-latin-light.eot');
+  src: url('latin/proxima-nova-latin-lightd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-light.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-light.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 400;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-regular-italic.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-regular-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-regular-italic.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-regular-italic.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 400;
+  src: url('cyrillic/proxima-nova-cyrillic-regular-italic.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-regular-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-regular-italic.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-regular-italic.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 400;
+  src: url('greek/proxima-nova-greek-regular-italic.eot');
+  src: url('greek/proxima-nova-greek-regular-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-regular-italic.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-regular-italic.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 400;
+  src: url('vietnamese/proxima-nova-vietnamese-regular-italic.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-regular-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-regular-italic.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-regular-italic.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 400;
+  src: url('latin-ext/proxima-nova-latin-ext-regular-italic.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-regular-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-regular-italic.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-regular-italic.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 400;
+  src: url('latin/proxima-nova-latin-regular-italic.eot');
+  src: url('latin/proxima-nova-latin-regular-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-regular-italic.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-regular-italic.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-regular.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-regulard41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-regular.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-regular.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url('cyrillic/proxima-nova-cyrillic-regular.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-regulard41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-regular.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-regular.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url('greek/proxima-nova-greek-regular.eot');
+  src: url('greek/proxima-nova-greek-regulard41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-regular.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-regular.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url('vietnamese/proxima-nova-vietnamese-regular.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-regulard41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-regular.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-regular.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url('latin-ext/proxima-nova-latin-ext-regular.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-regulard41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-regular.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-regular.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 400;
+  src: url('latin/proxima-nova-latin-regular.eot');
+  src: url('latin/proxima-nova-latin-regulard41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-regular.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-regular.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 600;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-semibold-italic.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-semibold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-semibold-italic.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-semibold-italic.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 600;
+  src: url('cyrillic/proxima-nova-cyrillic-semibold-italic.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-semibold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-semibold-italic.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-semibold-italic.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 600;
+  src: url('greek/proxima-nova-greek-semibold-italic.eot');
+  src: url('greek/proxima-nova-greek-semibold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-semibold-italic.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-semibold-italic.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 600;
+  src: url('vietnamese/proxima-nova-vietnamese-semibold-italic.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-semibold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-semibold-italic.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-semibold-italic.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 600;
+  src: url('latin-ext/proxima-nova-latin-ext-semibold-italic.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-semibold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-semibold-italic.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-semibold-italic.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: italic;
+  font-weight: 600;
+  src: url('latin/proxima-nova-latin-semibold-italic.eot');
+  src: url('latin/proxima-nova-latin-semibold-italicd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-semibold-italic.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-semibold-italic.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 600;
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-semibold.eot');
+  src: url('cyrillic-ext/proxima-nova-cyrillic-ext-semiboldd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-semibold.woff2') format('woff2'),
+       url('cyrillic-ext/proxima-nova-cyrillic-ext-semibold.woff') format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 600;
+  src: url('cyrillic/proxima-nova-cyrillic-semibold.eot');
+  src: url('cyrillic/proxima-nova-cyrillic-semiboldd41d.eot?#iefix') format('embedded-opentype'),
+       url('cyrillic/proxima-nova-cyrillic-semibold.woff2') format('woff2'),
+       url('cyrillic/proxima-nova-cyrillic-semibold.woff') format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek & greek-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 600;
+  src: url('greek/proxima-nova-greek-semibold.eot');
+  src: url('greek/proxima-nova-greek-semiboldd41d.eot?#iefix') format('embedded-opentype'),
+       url('greek/proxima-nova-greek-semibold.woff2') format('woff2'),
+       url('greek/proxima-nova-greek-semibold.woff') format('woff');
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 600;
+  src: url('vietnamese/proxima-nova-vietnamese-semibold.eot');
+  src: url('vietnamese/proxima-nova-vietnamese-semiboldd41d.eot?#iefix') format('embedded-opentype'),
+       url('vietnamese/proxima-nova-vietnamese-semibold.woff2') format('woff2'),
+       url('vietnamese/proxima-nova-vietnamese-semibold.woff') format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 600;
+  src: url('latin-ext/proxima-nova-latin-ext-semibold.eot');
+  src: url('latin-ext/proxima-nova-latin-ext-semiboldd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin-ext/proxima-nova-latin-ext-semibold.woff2') format('woff2'),
+       url('latin-ext/proxima-nova-latin-ext-semibold.woff') format('woff');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 600;
+  src: url('latin/proxima-nova-latin-semibold.eot');
+  src: url('latin/proxima-nova-latin-semiboldd41d.eot?#iefix') format('embedded-opentype'),
+       url('latin/proxima-nova-latin-semibold.woff2') format('woff2'),
+       url('latin/proxima-nova-latin-semibold.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
